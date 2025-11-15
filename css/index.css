@@ -362,7 +362,7 @@ form {
     }
 
     .hero_area img {
-        margin-top: -60px;
+        margin-top: -90px;
         margin-bottom: 20px;
         width: 60%;
     }
@@ -377,7 +377,8 @@ form {
 
     .hero_area a {
         width: 50%;
-        padding: 12px 0;
+        height: 50px;
+        margin-top: 0;
     }
 
 
