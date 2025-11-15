@@ -61,13 +61,25 @@ img {
     margin-top: 30px;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 599px) {
 
     .footer {
-        width: 770px;
+        width: 100%;
+        height: auto; 
+        margin: 10px auto;
+        padding-bottom: 20px;
     }
 
     .footer_logo {
+        width: 120px;
+    }
+
+    .footer_tell, 
+    .footer_mail {
         font-size: 10px;
+    }
+
+    .copyrigt {
+        font-size: 8px;
     }
 }
