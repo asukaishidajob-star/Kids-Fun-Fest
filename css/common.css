@@ -61,7 +61,7 @@ img {
     margin-top: 30px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 375px) {
 
     .footer {
         width: 770px;
