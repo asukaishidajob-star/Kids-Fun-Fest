@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000;
+    background-color: #F5E893;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: none;
+}
+
+/* .header_inner {
+    max-width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+}*/
+
+.footer {
+    color: #000;
+    background-color: #F5E893;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin: 20px;
+}
+
+.footer_logo {
+    display: block;
+    width: 150px;
+}
+
+.footer_tell, 
+.footer_mail {
+    font-size: 12px;
+}
+
+.copyrigt {
+    font-size: 8px;
+    margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+
+    .footer {
+        width: 770px;
+    }
+
+    .footer_logo {
+        font-size: 10px;
+    }
+}
